@@ -46,9 +46,9 @@ b,
 u,
 i,
 center,
-dl,
+/* dl,
 dt,
-dd,
+dd, */
 ol,
 ul,
 li,
@@ -144,17 +144,22 @@ nav {
 }
 .order-list {
   background-color: rgb(51, 126, 161);
-  box-shadow: 0 3px 10px rgb(0 0 0 / 0.4);
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.8);
   padding: 20px;
   width: 27%;
   height: 50vh;
 }
-.list {
+.list,
+.tick {
   margin-left: 12px;
   color: white;
+  line-height: 1.7;
 }
 .lists {
   margin-top: 30px;
+}
+.sublist {
+  margin-left: 20px;
 }
 .tick {
   /* list-style-image: url(../media/download.png); */
@@ -165,14 +170,17 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
-h1 {
+dt {
   font-size: 32px;
   color: black;
   margin-top: 16px;
 }
-p {
+dl {
   font-size: 18px;
-  margin: 16px;
+  margin-left: 18px;
+}
+dd {
+  margin-bottom: 20px;
 }
 .footer {
   background-color: rgb(22, 29, 10);
